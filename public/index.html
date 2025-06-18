@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gemini Chatbot</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <button id="clear-chat">🗑 Clear</button>
+      <button id="download-chat">⬇️ Download</button>
+      <h1>Gemini Chatbot</h1>
+      <h2 class="sub-heading">Powered by Gemini API</h2>
+      <button id="theme-toggle">🌙</button>
+    </div>
+    <div class="chat-messages" id="chat-messages"></div>
+    <div class="chat-input-container">
+      <input type="text" id="user-input" placeholder="Type your message..." />
+      <button id="send-button">Send</button>
+    </div>
+  </div>
+
+  <!-- Markdown rendering & sanitization -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@2.4.0/dist/purify.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

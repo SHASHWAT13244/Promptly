@@ -1,0 +1,14 @@
+{
+  "name": "secure-gemini-chatbot",
+  "version": "1.0.0",
+  "description": "Secure frontend Gemini chatbot using Node.js backend and .env",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-fetch": "^2.6.9"
+  }
+}
