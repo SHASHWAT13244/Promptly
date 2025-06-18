@@ -63,7 +63,7 @@ promptly/
 ## 🧑‍💻 Author
 
 **Shashwat Khandelwal**  
-CSE Student · AI/ML & Web Dev Enthusiast  
+CSE Student · Web Dev Enthusiast  
 🔗 [GitHub](https://github.com/shashwat13244)  
 🔗 [LinkedIn](https://www.linkedin.com/in/shashwat-khandelwal-a0564532b/)
 
