@@ -5,7 +5,7 @@ const themeToggle = document.getElementById('theme-toggle');
 
 // Call Gemini API via backend on Render
 async function generateResponse(prompt) {
-  const response = await fetch('https://promptly-w8cd.onrender.com', {
+  const response = await fetch('https://promptly-5gqo.onrender.com', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ prompt })
