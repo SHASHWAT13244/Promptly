@@ -1,12 +1,11 @@
-
 const chatMessages = document.getElementById('chat-messages');
 const userInput = document.getElementById('user-input');
 const sendButton = document.getElementById('send-button');
 const themeToggle = document.getElementById('theme-toggle');
 
-// Call Gemini API via backend
+// Call Gemini API via backend on Render
 async function generateResponse(prompt) {
-  const response = await fetch('/chat', {
+  const response = await fetch('https://chatbot-k2zo.onrender.com/chat', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ prompt })
@@ -150,3 +149,4 @@ themeToggle.addEventListener('click', () => {
 });
 
 initTheme();
+
